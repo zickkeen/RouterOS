@@ -19,7 +19,7 @@ add dont-require-permissions=no name=autobackup owner=admin policy=\
     \n\r\
     \n/system backup save name=\"\$routername\"\r\
     \n:log info [file get \"\$routername.backup\" type]\r\
-    \n:delay 3s;\r\
+    \n:delay 10s;\r\
     \n/tool e-mail send server=[:resolve smtp.gmail.com] port=587 user=\"\$smt\
     puser\" password=\"\$smtppass\" to=\"\$emailto\" subject=\"Backup Mikrotik \
     \$routername\" body=\"Backup mikrotik \$routername\" start-tls=yes  file=\
