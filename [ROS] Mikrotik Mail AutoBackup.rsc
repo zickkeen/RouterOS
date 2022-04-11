@@ -1,7 +1,7 @@
-# Created Date	: mar/30/2022 11:51:18
-# Author 		: Zick Keen
-# Created By	: RouterOS 6.48.6
-#CATATAN		: gunakan password khusus app: https://myaccount.google.com/apppasswords
+# Created Date  : mar/30/2022 11:51:18
+# Author        : Zick Keen
+# Tested on     : RouterOS 6.40 or newer
+#CATATAN        : gunakan password khusus app: https://myaccount.google.com/apppasswords
 
 #Jalankan command di bawah melalui terminal
 /tool e-mail set address=smtp.google.com from="smtpuser@gmail.com" password="smtppass" \
